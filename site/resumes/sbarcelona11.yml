@@ -1,0 +1,116 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sebastian 
+    last_name: Barcelona
+    
+    # Define yourself in 4-5 words
+    motto: 
+      I know code!
+    # focus
+    focus: 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm have a degree on IT and I work on a IT company as a software developer. I have intrest on ML, AI and Robotics.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars2.githubusercontent.com/u/45579135?s=400&u=4ca71af2490f687a3c555b4fdb84e79e263b6343&v=4
+
+    # Contact Information
+    email: sbarcelona@gmail.com #optional
+    phone: +59894961633 #optional
+    website: https://sebastianbarcelona.netlify.app
+    linkedin: https://www.linkedin.com/in/sebastian-barcelona-01565297/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
+    github: sbarcelona11
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+
+    # Interests or hobies
+    interests:
+      - item: Investigating
+      - item: Traveling
+      - item: Teaching
+
+# Your previous education
+education:
+    - degree: MS in IT
+      university: UTEC
+      time: 2018 - 2022
+      details: |
+        Attended education courses in teaching methodologies for elementary
+        school. Focusing on classroom assessment, literacy instruction,
+        classroom culture and politics in education. I also took courses in
+        exceptional student education. I have conducted research papers on 
+        effective strategies in literacy education. Worked closely with 
+        professors to create effective lesson plans and assessments. 
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Software Developer
+      time: 2011 - Present
+      company: Freelance
+      details: |
+        I have more than 10 years of experience developing software with differents tecnologies working on Frontend, Backend and mobile apps.
+
+          - Bullet point
+          - Bullet point
+    
+
+# Your project portfolio
+projects:
+    intro: >
+      Check my github profile to see my latests projects.
+
+    assignments:
+      - title: Example
+        link: "#https://github.com/sbarcelona11/"
+        tagline: "Personal profile"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 60%
+
+      - name: Javascript & jQuery
+        level: 100%
+
+      - name: React
+        level: 100%
+
+      - name: Node Js
+        level: 100%
+
+      - name: HTML5 & CSS
+        level: 100%
+
+      - name: Ruby on Rails
+        level: 90%
+
+      - name: Python
+        level: 80%
